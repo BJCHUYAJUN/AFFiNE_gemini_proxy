@@ -17,7 +17,7 @@ app = FastAPI()
 # -------------------------- 核心配置 --------------------------
 OLLAMA_EMBED_MODEL = "nomic-embed-text:latest"
 OLLAMA_CHAT_MODEL = "deepseek-r1:14b"
-OLLAMA_URL = "http://192.168.2.246:11434"
+OLLAMA_URL = "IP地址:端口"
 MAX_RETRIES = 3
 REQUEST_TIMEOUT = 60
 TEMP_IMAGE_DIR = "/tmp/affine_images"
